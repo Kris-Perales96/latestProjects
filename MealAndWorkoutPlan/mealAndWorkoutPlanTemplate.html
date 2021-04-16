@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+    background: rgba(129, 126, 126, 0.486);
+    margin: 0;
+    padding: 0;
+    text-size-adjust: 15%;
+  }
+
+  .navAlignment{
+    display: inline-block;
+  }
+  /* Navigation */
+  .navigation {
+    box-sizing: border-box;
+    background-color: #3587A4;
+    width:50px;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+  }
+ 
+  a{
+      font-size: 15px;
+  }
+
+  .workoutHeaders{
+      color:rgb(236, 240, 32);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .headerNormal{
+    color:rgb(228, 231, 52);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .padLeft{
+      padding-left: 2%;
+  }
+  .bold{
+      font-weight: bold;
+  }
+
+  .largeText{
+      font-size: 60px;
+  }
+
+  .mediumText{
+      font-size: 30px;
+  }
+
+  .smallText{
+      font-size: 15px;
+  }
+
+  h1{
+      text-align: center;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    color: rgb(228, 231, 52);
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 10px 18px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  .active {
+    color: #88CCF1;
+  }
+  
+  /* Table */
+  
+  table {
+    height: auto;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: relative;
+    width: 95%;
+    table-layout: fixed;
+  }
+  
+  thead th {
+    background: #000000;
+    color: rgb(222, 224, 66);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+  
+  th, td {
+    background: rgb(220, 223, 56);
+    color:  #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+    width: 33.3333%;
+  }
+        </style>
+        <h2 class="headerNormal padLeft mediumText bold">Jane Doe</h2>
+        <h6 class="bold padLeft smallText">Edad: 26 anos</h6>
+        <h6 class="bold padLeft smallText">Peso: 59kg, Porcentaje de grasa: 17%</h6>
+        <h6 class="bold padLeft smallText">Periodo: 22 de Marzo 2021 a 22 de abril 2021</h6>
+        <title>Jane Doe Plan de Alimentacion Y Entrenamiento</title>
+    </head>
+
+    <nav id="top">
+        <ul class="navAlignment navigation">
+            <li><a href="#Meal_plan">Meal Plan</a></li>
+            <li><a href="#Exercise_plan">Exercise Plan</a></li>
+            <li><a href="#Dia_1">Day 1 de Entrenando</a></li>
+            <li><a href="#Dia_2">Day 2 de Entrenando</a></li>
+            <li><a href="#Dia_3">Day 3 de Entrenando</a></li>
+            <li><a href="#Dia_4">Day 4 de Entrenando</a></li>
+            <li><a href="#Dia_5">Day 5 de Entrenando</a></li>
+            <li><a href="#Dia_6">Day 6 de Entrenando</a></li>
+            <li><a href="#Abs">Ab Entrenando</a></li>
+            <li><a href="#Cardio">Cardio</a></li>
+            <li><a href="#Vitamins">Vitaminas</a></li>
+        </ul>
+    </nav>
+
+    <body>
+        <section id="Meal_plan">
+        <h1 class="headerNormal padLeft largeText bold">Plan de Alimentacion</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tiempo del dia</th>
+                    <th>Proteinas</th>
+                    <th>Carbos</th>
+                    <th>Vegetales</th>
+                    <th>Grasas</th>
+                    <th>Vitaminas</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>Desayuno</th>
+                <td>1 huevo, 4 claras, 1 reb de tocino de pavo</td>
+                <td>250g papas y una manzana</td>
+                <td>No Vegetales</td>
+                <td>No Grasas</td>
+                <td>2 capsulas de EFA Complex</td>
+            </tr>
+            <tr>
+                <th>Media Manana</th>
+                <td>90g de pechuga de pollo</td>
+                <td>1 pan tostado integral y una naranja</td>
+                <td>No Vegetales</td>
+                <td>15g de hummus</td>
+                <td>No vitaminas</td>
+            </tr>
+            <tr>
+                <th>Almuerzo</th>
+                <td>120g de pechuga de pollo o carne de pavo o camarones</td>
+                <td>250g de camote o 1 taza de arroz o 1 taza de quinoa</td>
+                <td>1 taza de ensalada con 5g de aceite de olivo extra virge</td>
+                <td>No Grasas</td>
+                <td>No vitaminas</td>
+            </tr>
+            <tr>
+                <th>Media Tarde</th>
+                <td>Media taza de yogurt de griego sin grasa</td>
+                <td>1 platano pequeno</td>
+                <td>No Vegetales</td>
+                <td>1 cucharada con crema de cacahuate</td>
+                <td>No vitaminas</td>
+            </tr>
+            <tr>
+                <th>Cena</th>
+                <td>100g de salmon o carne de pavo o Sirloin</td>
+                <td>1 tortilla de 100kcals</td>
+                <td>1 taza de cualquier vegetal o ensalada</td>
+                <td>15g de aguacate</td>
+                <td>2 capsulas de EFA Complex</td>
+            </tr>
+            <tr>
+                <th>Post Cena</th>
+                <td>1 porcion de proteina</td>
+                <td>Media taza de avena con 1 cucharada de linaza o hemp</td>
+                <td>No Vegetales</td>
+                <td>Media taza de leche de almendras</td>
+                <td>No vitaminas</td>
+            </tr>
+            </tbody>
+        </table>
+        <a href="#top">Back to top</a>
+    </section>
+    <section id="Exercise_plan">
+        <h1 class="headerNormal largeText bold">Plan de Entrenamiento</h1>
+
+        <h5 id="Dia_1" class="workoutHeaders padLeft mediumText bold">Dia #1: Espalda/ Biceps</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parte del Cuerpo</th>
+                    <th>Exercise</th>
+                    <th>Series</th>
+                    <th>Repeticiones</th>
+                    <th>Cuantas Libras</th>
+                    <th>Tiempo de Descanso</th>
+                    <th>Example of The Exercise</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Espalda 1</th>
+                    <td>Lat pulldowns</td>
+                    <td>5</td>
+                    <td>8 a 12</td>
+                    <td>50 y coloca 10 libra mas cada serie</td>
+                    <td>30 segundos o 45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=1TOmz-GOO-k" target="_blank">Lat Pulldowns</a></td>
+                </tr>
+                <tr>
+                    <th>Espalda 2</th>
+                    <td>Remo con mancuerna a 1 mano</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>20 y coloca 10 mas cada serie si esta facil</td>
+                    <td>30 segundos o 45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=_EfNwPgRYSU" target="_blank">Remo con mancuerna a 1 mano</a></td>
+                </tr>
+                <tr>
+                    <th>Espalda 3</th>
+                    <td>Remo con T-bar</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>50 y cada serie coloca 10 mas libras</td>
+                    <td>30 segundos o 45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=KDEl3AmZbVE" target="_blank">Remo con T barra</a></td>
+                </tr>
+                <tr>
+                    <th>Espalda 4</th>
+                    <td>Remo con cable sentada</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>50 libras cada serie que esta facil coloca 10 libras mas</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=esSSNNiNw38" target="_blank">Remo con cable sentada</a></td>
+                </tr>
+                <tr>
+                    <th>Bicep 1</th>
+                    <td>Curl tipo martillo</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>Pesas que sientes</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=wPDkHF-wKJQ" target="_blank">Curl tipo martillo</a></td>
+                </tr>
+                <tr>
+                    <th>Bicep 2</th>
+                    <td>Curl de biceps con barra</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>Pesa que sientes</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=duY8i_AAp6M" target="_blank">Curl con barra Z</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#top">Back to top</a>
+
+        <h5 id="Dia_2" class="workoutHeaders padLeft mediumText bold">Dia #2: Quads/Gluteos/Pantorrillas</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parte del Cuerpo</th>
+                    <th>Exercise</th>
+                    <th>Series</th>
+                    <th>Repeticiones</th>
+                    <th>Cuantas Libras</th>
+                    <th>Tiempo de Descanso</th>
+                    <th>Video del Ejercicio</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Quads 1</th>
+                    <td>Leg Extensions</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>50 y coloca 15 libra mas cada serie</td>
+                    <td>30 segundos o 45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=TxUINHY3Sng" target="_blank">Leg Extension</a></td>
+                </tr>
+                <tr>
+                    <th>Quads 2</th>
+                    <td>Single Leg Smith Squats</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>Quizas 10 libras cada lado</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=JlTojfaAXBo" target="_blank">Single Leg Smith Squats</a></td>
+                </tr>
+                <tr>
+                    <th>Quads 3</th>
+                    <td>Leg Press</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>2 platos grandes y coloca un plato cada lado cada serie</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=BPH0YMN4Hws" target="_blank">Leg Press</a></td>
+                </tr>
+                <tr>
+                    <th>Quads 4</th>
+                    <td>Desplantes caminando</td>
+                    <td>4</td>
+                    <td>8 a 12 por pierna</td>
+                    <td>30 libras</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=uoC-F2OxoS8" target="_blank">Desplantes caminando</a></td>
+                </tr>
+                <tr>
+                    <th>Quads 5</th>
+                    <td>Hack Squats</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>25 cada lado y coloca mas si esta facil</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=0tn5K9NlCfo" target="_blank">Hack Squats</a></td>
+                </tr>
+                <tr>
+                    <th>Gluteos 1</th>
+                    <td>Hip Extensions on low cable with leg attachment</td>
+                    <td>4</td>
+                    <td>20</td>
+                    <td>Tu usual pesa</td>
+                    <td>30 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=xO5WVJGVJ2w" target="_blank">Cable Kickbacks</a></td>
+                </tr>
+                <tr>
+                    <th>Gluteos 2</th>
+                    <td>Desplantes con salto sin peso superset con mountain climbers</td>
+                    <td>3</td>
+                    <td>30 segundos</td>
+                    <td>Sin peso</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=y7Iug7eC0dk" target="_blank">Desplantes con salto</a> <a href="https://www.youtube.com/watch?v=UN3ox6IR_8s"> mountain climbers</a></td>
+                </tr>
+                <tr>
+                    <th>Gluteos 3</th>
+                    <td>Step ups con mancuernas</td>
+                    <td>4</td>
+                    <td>8 a 12 por pierna</td>
+                    <td>Tu usual pesa</td>
+                    <td>30 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=dQqApCGd5Ss" target="_blank">Step ups con mancuernas</a></td>
+                </tr>
+                <tr>
+                    <th>Pantorrillas 1</th>
+                    <td>Elevaciones de talones sentada</td>
+                    <td>7</td>
+                    <td>8 a 12</td>
+                    <td>Tu usual pesa</td>
+                    <td>30 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=JbyjNymZOt0" target="_blank">Elevaciones de talones sentada</a></td>
+                </tr>
+                <tr>
+                    <th>Pantorrillas 2</th>
+                    <td>Elevaciones de talones parada</td>
+                    <td>7</td>
+                    <td>8 a 12</td>
+                    <td>Tu usual pesa</td>
+                    <td>30 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=GAQ-oohMhog" target="_blank">Elevaciones de talones parada</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#top">Back to top</a>
+
+        <h5 id="Dia_3" class="workoutHeaders padLeft mediumText bold">Dia #3: Descanso</h5>
+        <a href="#top">Back to top</a>
+
+        <h5 id="Dia_4" class="workoutHeaders padLeft mediumText bold">Dia #4: Delts/Pecho/Triceps</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parte del cuerpo</th>
+                    <th>Exercise</th>
+                    <th>Series</th>
+                    <th>Repeticiones</th>
+                    <th>Cuantas Libras</th>
+                    <th>Tiempo de descanso</th>
+                    <th>Video del Ejercicio</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Delts 1</th>
+                    <td>Press Militar con barra</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>40 y coloca 10 libra mas cada segundo serie</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=waeCyaAQRn8" target="_blank">Press Militar con barra</a></td>
+                </tr>
+                <tr>
+                    <th>Delts 2</th>
+                    <td>Elevaciones frontales con mancuernas</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>15 y coloca 5 libra mas cada segundo serie</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=BGc_9aUaSAw" target="_blank">Elevaciones frontales con mancuernas</a></td>
+                </tr>
+                <tr>
+                    <th>Delts 3</th>
+                    <td>Remo para hombro con mancuernas</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>10 y coloca 5 libra mas cada segundo serie</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=bZHEVCJ4ZNE" target="_blank">Remo frontales con mancuernas</a></td>
+                </tr>
+                <tr>
+                    <th>Delts 4</th>
+                    <td>Elevaciones laterales con mancuernas</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>15 y coloca 5 libra mas cada segundo serie</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=bkr9c5us8Lc" target="_blank">Elevaciones laterales con mancuernas</a></td>
+                </tr>
+                <tr>
+                    <th>Pecho 1</th>
+                    <td>Incline Press with dumbells</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>20 cada lado y coloca mas si esta facil</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=DnV3R4vp3K0" target="_blank">Incline Press con mancuernas</a></td>
+                </tr>
+                <tr>
+                    <th>Triceps 1</th>
+                    <td>Pushdowns con cuerda</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>30 cada lado y coloca mas si esta facil</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=tuSrG8XntCQ" target="_blank">Pushdowns con cuerda</a></td>
+                </tr>
+                <tr>
+                    <th>Triceps 2</th>
+                    <td>Fondos en maquina</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>Necesito saber que es este</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=8zFcJWD9Y_E" target="_blank">Fondos en maquina</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#top">Back to top</a>
+
+        <h5 id="Dia_5" class="workoutHeaders padLeft mediumText bold">Dia #5: Espalda/Deltoids posterior</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parte del cuerpo</th>
+                    <th>Exercise</th>
+                    <th>Series</th>
+                    <th>Repeticiones</th>
+                    <th>Cuantas Libras</th>
+                    <th>Tiempo de descanso</th>
+                    <th>Video del Ejercicio</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Espalda 1</th>
+                    <td>Reverse Grip Lat pulldowns</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>50 y coloca 10 libra mas cada serie</td>
+                    <td>30 segundos o 45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=uYIMc_2VwUc" target="_blank">Reverse Grip Lat Pulldowns</a></td>
+                </tr>
+                <tr>
+                    <th>Espalda 2</th>
+                    <td>Remo con barra con agarre invertido</td>
+                    <td>3</td>
+                    <td>8 a 12</td>
+                    <td>Necesito saber que es</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=BwEba0CBm8U" target="_blank">Remo con barra con agarre invertido</a></td>
+                </tr>
+                <tr>
+                    <th>Espalda 3</th>
+                    <td>Remos en maquina</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>25 cada lado y cada serie coloca 10 mas libras</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=LtKCZiqNwPQ" target="_blank">Remos en maquina</a></td>
+                </tr>
+                <tr>
+                    <th>Espalda 4</th>
+                    <td>Pullovers con mancuernas</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>Necesito saber que es</td>
+                    <td>60 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=dQN8wtOmN7w" target="_blank">Pullovers con mancuernas</a></td>
+                </tr>
+                <tr>
+                    <th>Espalda 5</th>
+                    <td>Reverse Pec Fly</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>30 y cada seguno serie coloca mas libras</td>
+                    <td>60 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=8bbnLuxJ8Gw" target="_blank">Reverse pec fly</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#top">Back to top</a>
+
+        <h5 id="Dia_6" class="workoutHeaders padLeft mediumText bold">Dia #6: Hamstrings/Gluteos</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parte del cuerpo</th>
+                    <th>Exercise</th>
+                    <th>Series</th>
+                    <th>Repeticiones</th>
+                    <th>Cuantas Libras</th>
+                    <th>Tiempo de descanso</th>
+                    <th>Video del Ejercicio</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Hamstrings 1</th>
+                    <td>Leg curl acostada</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>50 y coloca 10 libra mas cada segundo serie</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=T7qdGrlkCQA" target="_blank">Leg Curl acostada</a></td>
+                </tr>
+                <tr>
+                    <th>Hamstrings 2</th>
+                    <td>Sentadilla a 1 pierna en Smith, baja hasta el fondo</td>
+                    <td>4</td>
+                    <td>8 a 12 por pierna</td>
+                    <td>quizas 10 libras cada lado</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=JlTojfaAXBo" target="_blank">Single Leg Smith Squats</a></td>
+                </tr>
+                <tr>
+                    <th>Hamstrings 3</th>
+                    <td>Step up lunges</td>
+                    <td>4</td>
+                    <td>8 a 12 por pierna</td>
+                    <td>50 libras y usas mas libra cada serie si est facil</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=sNZHSfvPUAE" target="_blank">Step up lunges</a></td>
+                </tr>
+                <tr>
+                    <th>Hamstrings 4</th>
+                    <td>Leg curl a 1 pierna parada</td>
+                    <td>4</td>
+                    <td>8 a 12</td>
+                    <td>30 y coloca 10 libra mas cada segundo serie</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=WjRlG46IxKY" target="_blank">Leg curl a 1 pierna parada</a></td>
+                </tr>
+                <tr>
+                    <th>Hamstrings 5</th>
+                    <td>Leg curl sentada</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>50 y coloca 10 libra mas cada serie</td>
+                    <td>30 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=sAZBplaPdIo" target="_blank">Leg curl sentada</a></td>
+                </tr>
+                <tr>
+                    <th>Hamstrings 6</th>
+                    <td>Box Jumps super set with Burpees</td>
+                    <td>3</td>
+                    <td>30 segundos</td>
+                    <td>sin peso</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=52r_Ul5k03g" target="_blank">Box jumps</a> <a href="https://www.youtube.com/watch?v=auBLPXO8Fww" target="_blank">Burpees</a></td>
+                </tr>
+                <tr>
+                    <th>Pantorrillas 1</th>
+                    <td>Elevaciones de talones sentada</td>
+                    <td>5</td>
+                    <td>8 a 12</td>
+                    <td>Tu usual pesa</td>
+                    <td>30 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=JbyjNymZOt0" target="_blank">Elevaciones de talones sentada</a></td>
+                </tr>
+                <tr>
+                    <th>Pantorrillas 2</th>
+                    <td>Pantorrillas en leg press</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>Tu usual pesa</td>
+                    <td>30 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=M4FojyRAcuE" target="_blank">Pantorrillas en leg press</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#top">Back to top</a>
+
+        <h5 id="Abs" class="workoutHeaders padLeft mediumText bold">Abs: 3 dias a la semana</h5>
+        <h6 class="workoutHeaders smallText padLeft bold">En forma de circuitos sin parar entre circuitos:</h6>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parte del cuerpo</th>
+                    <th>Exercise</th>
+                    <th>Series</th>
+                    <th>Repeticiones</th>
+                    <th>Cuantas Libras</th>
+                    <th>Tiempo de descanso</th>
+                    <th>Video del Ejercicio</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Abs 1</th>
+                    <td>Elevaciones de pierna acostada en banca declinada</td>
+                    <td>5</td>
+                    <td>30</td>
+                    <td>sin peso o con 5 o 10 libras</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=H6MTbVOjfeE" target="_blank">Elevaciones dee pierna acostada en banca declinada</a></td>
+                </tr>
+                <tr>
+                    <th>Abs 2</th>
+                    <td>Elevaciones de pierna acostada</td>
+                    <td>5</td>
+                    <td>30</td>
+                    <td>sin peso o con 5 o 10 libras</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=NWnAASAcnjg" target="_blank">Elevaciones de pierna acostada</a></td>
+                </tr>
+                <tr>
+                    <th>Abs 3</th>
+                    <td>Reverse crunches</td>
+                    <td>5</td>
+                    <td>30</td>
+                    <td>Usas cunato quieres por tus pesas</td>
+                    <td>45 segundos</td>
+                    <td><a href="https://www.youtube.com/watch?v=gAyTBB4lm3I" target="_blank">Reverse crunches</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#top">Back to top</a>
+
+        <h5 id="Cardio" class="workoutHeaders padLeft mediumText bold">Cardio:<h5> 
+            <p class="workoutHeaders padLeft smallText bold">5 dias por semana en escalera sin fin 30 minutos (1 minuto a intensidad baja seguido de 
+                1 minuto a intensidad alta) las pulsaciones deben andar entre 125 y 140bpm, puedes hacer en ayuna 
+                o depues de entrenar.</p>
+                <a href="#top">Back to top</a>
+    </section>
+    <section  id="Vitamins">
+        <h2 class="workoutHeaders padLeft bold">Vitaminas</h2>
+            <ul class="padLeft">
+                <li>1 comprimido de Evovite por las mananas,</li>
+                <li>Antes de entrenar: 1 porcion de EVP 3D,</li>
+                <li>Despues de entrenar: 2 panes con mermelada normal con 1 platano,</li>
+                <li>Todo los dias 500mg of Ashwagandha por las noches,</li>
+                <li>Ingesta de agua minima al dia 3 litros</li>
+            </ul>
+            <a href="#top">Back to top</a>
+    </section>
+    </body>
+
+</html>
